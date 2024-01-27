@@ -1,0 +1,11 @@
+%pip install pandas
+%pip install pyarrow
+%pip install numpy
+%pip install scikit-learn
+%pip install imbalanced-learn
+%pip install matplotlib
+
+import pandas as pd
+import numpy as np
+
+df = pd.read_parquet('catB_train.parquet')
